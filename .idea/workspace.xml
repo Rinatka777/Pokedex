@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0089382-b91f-49d2-bdc9-d40bc0826e76" name="Changes" comment="" />
+    <list default="true" id="a0089382-b91f-49d2-bdc9-d40bc0826e76" name="Changes" comment="repl started">
+      <change afterPath="$PROJECT_DIR$/src/command.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command_exit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command_help.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/repl.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +33,12 @@
     &quot;assignee&quot;: &quot;Rinatka777&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Rinatka777/Pokedex.git",
-    "accountId": "df6c0168-2ac2-4948-9745-ff8eaee46165"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Rinatka777/Pokedex.git&quot;,
+    &quot;accountId&quot;: &quot;df6c0168-2ac2-4948-9745-ff8eaee46165&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/ekaterinasharifullina/Documents/my_env/programming/pokedex",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/ekaterinasharifullina/Documents/my_env/programming/pokedex/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ekaterinasharifullina/Documents/my_env/programming/pokedex&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ekaterinasharifullina/Documents/my_env/programming/pokedex/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,11 +86,33 @@
       <option name="presentableId" value="Default" />
       <updated>1759237317275</updated>
       <workItem from="1759237318716" duration="7045000" />
-      <workItem from="1759244620066" duration="351000" />
+      <workItem from="1759244620066" duration="486000" />
+      <workItem from="1759506839721" duration="4273000" />
     </task>
+    <task id="LOCAL-00001" summary="repl started">
+      <option name="closed" value="true" />
+      <created>1759245001824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759245001824</updated>
+    </task>
+    <task id="LOCAL-00002" summary="repl started">
+      <option name="closed" value="true" />
+      <created>1759245029161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759245029161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="repl started" />
+    <option name="LAST_COMMIT_MESSAGE" value="repl started" />
   </component>
 </project>
