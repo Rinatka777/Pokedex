@@ -8,13 +8,20 @@ export type CLICommand = {
 };
 
 export type State = {
-    rl: Interface;
-    commands: Record<string, CLICommand>;
+  readline: Interface;
+  commands: Record<string, CLICommand>;
 };
 
-export function initState(): State{
-    const rl = createInterface({input: process.stdin, output: process.stdout});
-    const commands = getCommands();
-    return {rl, commands};
-};
+export function initState() {
+  const rl = createInterface({
+    input: process.stdin,
+    output: process.stdout,
+    prompt: "pokedex > ",
+  });
+
+  return {
+    readline: rl,
+    commands: getCommands(),
+  };
+}
 
