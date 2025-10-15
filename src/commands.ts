@@ -13,6 +13,10 @@ export function getCommands(): Record<string, CLICommand> {
       name: "exit",
       description: "Exit the Pokedex",
       callback: commandExit,
-    },
+    };
+    map: {
+
+    }
   };
+
 }
