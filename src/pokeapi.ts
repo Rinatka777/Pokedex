@@ -12,6 +12,7 @@ export class PokeAPI {
       if (!resp.ok) {
         throw new Error(`${resp.status} ${resp.statusText}`);
       }
+
       const locations: ShallowLocations = await resp.json();
       return locations;
     } catch (e) {
@@ -38,7 +39,6 @@ export class PokeAPI {
     }
   }
 }
-
 
 export type ShallowLocations = {
   count: number;
