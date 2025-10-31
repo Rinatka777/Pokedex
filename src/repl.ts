@@ -35,6 +35,6 @@ export function cleanInput(input: string): string[] {
   return input
     .toLowerCase()
     .trim()
-    .split(" ")
+    .split(/\s+/)
     .filter((word) => word !== "");
 }
