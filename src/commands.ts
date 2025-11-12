@@ -1,6 +1,7 @@
 import { commandHelp } from "./command_help.js";
 import { commandExit } from "./command_exit.js";
 import { commandMapForward, commandMapBack } from "./command_map.js";
+import { commandExplore } from "./command_explore.js";
 
 import type { CLICommand } from "./state.js";
 
@@ -26,5 +27,10 @@ export function getCommands(): Record<string, CLICommand> {
       description: "Get the previous page of locations",
       callback: commandMapBack,
     },
+    explore:{
+        name: "explore",
+        description:"Shows all the pokemons in the selected area",
+        callback: commandExplore,
+    }
   };
 }
