@@ -28,7 +28,7 @@ export function getCommands(): Record<string, CLICommand> {
       callback: commandMapBack,
     },
     explore:{
-        name: "explore",
+        name: "explore <location_name>",
         description:"Shows all the pokemons in the selected area",
         callback: commandExplore,
     }
